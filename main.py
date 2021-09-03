@@ -7,6 +7,7 @@ in a dictionary.
 # Extracts and reads the file downloaded.
 # The file starts out as a list of one element. List is converted into a string.
 
+# PAGE SOURCE TEXT IS LOCATED IN LOCAL FILE, THEN IS CONVERTED TO A STRING
 x = open("c:\\Users\\hemic\\Documents\\osa_info1-1.txt","r")
 xx = x.readlines()
 string = "".join(xx)
