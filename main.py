@@ -58,7 +58,7 @@ print(apy_beginning_indexes)
 # This for loop goes through the list of beginning APY indexes and prints the next 5
 # characters after these indexes. Since all APY values are rounded to the nearest tenth
 # and therefore are all 5 characters, finding the indexes of patterns that occur after
-# the APY value is not necessary.
+# the APY value is not necessary..
 apy_values = []
 for i in range(len(apy_beginning_indexes)):
 	apy_values = apy_values + [string[apy_beginning_indexes[i]:apy_beginning_indexes[i] + 5]]
